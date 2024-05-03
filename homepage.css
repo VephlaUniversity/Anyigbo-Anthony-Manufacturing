@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.navbar-1{
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height: 10vh;
+}
+
+.nav-lang{
+    margin: 1rem;
+}
+
+.nav-logo{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav-logo img{
+    width: 15%;
+    margin-left: 5%;
+    
+}
+
+ .nav-logo a{
+   /* display: inline-block; */
+   margin-right: 90%;
+   width: 50%;
+   margin-top: 0.8rem;
+} 
+
+.nav-utility{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    margin-top: 0rem;
+
+}
+
+.nav-utility ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+  a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    width: 50%;
+    padding-right: 2rem;
+    font-size: 0.75rem;
+    transition: 1.2s;
+}
+
+.navbar-1 a:hover{
+    transition: 2s;
+    color: rgb(202, 202, 190);
+    
+} 
+
+.navbar-2{
+    background:linear-gradient( rgb(0, 0, 0) , rgb(12, 11, 11));
+    opacity: 0.6;
+    width: 100%;
+    position: absolute;
+    top: 3.5rem;
+}
+
+.navbar-2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.navbar-2 a{
+    font-size: 0.95rem;
+    transition: 1.2s;
+    color: rgb(255, 253, 250);
+    font-weight: 600;
+}
+
+.navbar-2 a:hover{
+   transform: scaleX(1.5);
+    color: rgb(0, 0, 0);
+}
+
+.carousel{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 50rem;
+    top: 0;
+}
+
+.carousel img{
+    height:50rem;
+}
+
+
+.slide-text{
+    position: absolute;
+    background-color: rgba(32, 29, 29, 0.192) ;
+    width: 30%;
+    top: 19rem;
+    margin-left: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    filter: blur(0.05rem);
+    transition: 1s;
+    padding: 1rem;
+}
+
+.slide-text:hover{
+    filter: blur(0rem);
+    color: aliceblue;
+    width:40% ;
+    transform: scale(1.1);
+}
+
+.slide-text button{
+    border: none;
+    border-radius: 2rem;
+    width: 40%;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+
+.model{
+    position: relative;
+    margin: 0 4rem;
+    height: 190rem;
+    top: 50rem;
+
+}
+
+.model-1{
+    position: absolute;
+    top: 10rem;
+    width: 35%;
+    height: 28%;
+    margin-right: 1rem;
+}
+
+.model-1 img{
+    width: 100%;
+    height: 86%; 
+    transition: 2s;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+.model-1 img:hover{
+    transition: 2s;
+    transform: scale(1.05);
+}
+
+.model-2{
+    position: absolute;
+    top: 40rem;
+    right: 2%;
+    width: 50%;
+    /* height: 23%; */ 
+}
+
+.model-2 img{
+    width: 100%;
+    height: 88%; 
+    transition: 2s;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+.model-2 img:hover{
+    transition: 2s;
+    transform: scale(1.05);
+}
+
+
+.model-3{
+    position: absolute;
+    top: 76rem;
+    width: 40%;
+    height: 23%;
+    margin-right: 1rem;
+}
+
+.model-3 img{
+    width: 100%;
+    height: 83%; 
+    transition: 2s;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+.model-3 img:hover{
+    transition: 2s;
+    transform: scale(1.05);
+}
+
+.model-4{
+    position: absolute;
+    top: 100rem;
+    right: 2%;
+    width: 50%;
+}
+
+.model-4 img{
+    width: 100%;
+    height: 88%; 
+    transition: 2s;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+.model-4 img:hover{
+    transition: 2s;
+    transform: scale(1.05);
+}
+
+
+.model-5{
+    position: absolute;
+    top: 135rem;
+    width: 35%;
+    height: 24%;
+    text-align: center;
+}
+
+.model-5 img{
+    width: 100%;
+    height: 85%; 
+    transition: 2s;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+.model-5 img:hover{
+    transition: 2s;
+    transform: scale(1.05);
+} 
+
+.info{
+    background: linear-gradient(black , grey);
+    position: absolute;
+    top: 240rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    padding-top: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    
+}
+
+.info-text1{
+    width: 70%;
+    margin-right: 2rem;
+    border-right: thin grey;
+    color: white;
+}
+
+.info-img{
+    width: 100%;   
+}
+
+.info-img img{
+    width: 80%;
+}
+
+.info-text2{
+    margin-top: 4rem;
+    width: 60%;
+    color: white;
+}
+
+.info-text2 button{
+    border: none;
+    border-radius: 2rem;
+    width: 40%;
+    padding: 0.5rem;
+    font-weight: 600;
+    transition: 2s;
+    margin-top: 2rem;
+}
+
+.info-text2 button:hover{
+    background-color: rgb(24, 117, 255);
+    color: white;
+
+}
+
+.social{
+    background-color: white;
+    position: absolute;
+    top: 280rem;
+    width: 100%;
+    text-align: center;
+    height: 18rem;
+    padding: 4rem 4rem 1rem;
+
+}
+
+.social h1{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+    
+}
+
+.socials-items a{
+    padding-right: 1rem;
+    
+}
+
+.socials-items a:hover{
+    color: rgba(78, 76, 76, 0.582);
+}
+
+.socials-items {
+display: flex;
+justify-items: center;
+}
+
+
+.sales{
+    background-color: black;
+    width: 100%;
+    height: 70rem;
+    position: relative;
+    top: 110rem;
+    padding-bottom: 5rem;
+}
+
+.sales-menu{
+    margin-left: 5rem;
+    padding-top: 8rem;
+    font-size: 2rem;
+    height: 50%;
+    display: inline-block;
+    margin-bottom: 8rem;
+}
+
+.sales-menu h1{
+width: 20%;
+}
+
+.sales-menu h1 a{ 
+    width: 100%;
+    font-size: 2rem;
+    transition: 1.2s;
+}
+
+.sales-menu h1 a:hover{
+transform: scale(1.2);
+color: white;
+}
+
+
+.sales-sub-menu{
+    float: right;
+    padding-top: 9rem;
+    margin-right:62%;
+    margin-bottom: 8rem;
+}
+
+.sales-sub-menu ul{
+    list-style: none;
+}
+
+.sales-sub-menu a{
+    text-decoration: none;
+    font-size: 1rem;
+   
+}
+
+.sales-sub-menu a:hover{
+    transform: scale(1.1);
+    color: white;
+    border-bottom: 1px grey;
+ }
+
+.sales-sub-menu li{
+    padding-bottom: 1rem;
+}
+
+hr{
+    width: 70%;
+    color: grey;
+    margin: auto;
+}
+
+.more-info{
+margin: 3rem 3rem;
+}
+
+.more-info1,.more-info2, .more-info3{
+    float: right;
+}
+
+
+
+
+

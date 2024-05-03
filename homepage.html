@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------------------FONTAWESOME----------- -->
+    <script src="https://kit.fontawesome.com/db6ecb7333.js" crossorigin="anonymous"></script>
+
+    <!-- ------------BOOTSTRAP LINK FOR CAROUSEL---------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcBBAUDAgj/xABHEAABAwMBBAYGBgYHCQAAAAABAgMEAAURBhIhMWEHFCJBUXETQoGRobEVIzJicsFSgqKywtEWJDNDRFNUJmNzg5Kz0uHw/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGxEBAQEBAQEBAQAAAAAAAAAAAAERMSFBURL/2gAMAwEAAhEDEQA/ALxpSlApSlArBIAyTXwpfcKhequkWw2BxbCnlTZyTgxopCtk+ClcE+XHlQ1MHZTbaSeOK0HZs0pK0NIaQN+05uGPM4qtm7t0j6sAVaYLdjhr4OLGyoj8SgVHzSkVsI6JJNyUlzUmoZUtedrATtYPIrJ+VXGd1KpGoG2/7a/W1o+HWG93urVVqNtzHV9TWwnnIT+YrnSui3Tlvt0h8pkvLaZUobb5G0oDdwA765UXTNouvSNe7PKj7DbMZp2MlpRbCQkISobt2O0mr4ephGul3dP9Vlwpo7/Qutq+RBrYOpZMU7NytzjfgpORn37vjUcl9E1rX2o0mQ2ocMlKxn2gH41rK0zq+xjNqvC5DQ/uXVZB5bK8p+Ioep9Av9unEJakBLh9RwbJ/kfZXTzVPOXtKHTH1PZVw3O+VCQRnmWjxHNJOa7tvvFxtsUTLfLau9pBxtIVtbHiD3oPI7qmLqxaVybJf4V6bJiuYdSO2wvctH8xzG6utUUpSlApSlApSlArTulxiWuE7MuD6I8ZoZW4s4A/meXfS6XCLa4D86c8lmKwgrccVwAH/wBwqoI0e6dLd8MuWp6HpaI4Q00k7JdI+at+9XqjcN+TVkS16zNQam6SJjlv0qhy22NKtl6avKVODmofuJ3+JGcVNNI9HNj02lt1tgSpqf8AFPpBUk/cHBPs38zUnttuiWyG1EgR22GGk7KG204AFbdNM/XylITwr6pSorkapc2LUEjP1shhvd4FxOfhmoGw8IvTk4CcdYjlrz+rSrH7HwqYavcJkWSMk73J20R4hLaz89mq61Y/1Lpgt0rhiXHSeQUAgn3KNWM1dFYxQGs1GmjcLVEuDKmpLDa0H1VJBHuqAXfRk2yzDc9MyXGHx9pIO0Fj9FQP2xyO/fuNWbWFAEEEZB4irqYp6K+m7ysw0/RGpGcq6shWy3JxxLJPA+KD8t9TbSOrUXZRgXFIj3NrIUgjZDuOJAPA+Ka8NY6Qj3Nj0zCS1IQdtt1s4WhQ4EHuI7jUMxKvbqosomPqy3p9I2632Ovtp4LH+8GOH5cKnFyg5rNRTQmqhf4SmJWyi5Ruy8jGNsdywPA9/gcipXWWilKUCvlSsbq+juqFdKepVad0s85HWUzZZ6vGKeKSR2lDyGT54oVD9UTJPSLrRGl7a6pFlt7m3NfRwWpJwf8AxTzyd+Ktq12+Na4DEKE0lqOwgIbQkbkgVFuirS403ploPN7M2UA9IPelRG5PsG7zz41NKt/EhSlKilKUoIhqF4ua5scTiluK++rkSttCfmqq36XXOq6udlY3s+id3fdAP5VPnF9Y6TpJxujQo7Q81OFZ/KoL0wIzqKXn/Lb/AHa1Os3i72HA6y24ngtIUD516Vw9DSuuaOsz5JJMNtKieJISAfiK7lZaKUpQYIyMd1QLpB026+23cbWotXCIr00Z1G4hQ37J5Gp9Xm+0l5lTa+BFWJZqlpFxWUw9b2Zr0T6XPQ3OKncEPesPwr4jng8auCz3Fi625ibGXtNOoCknzFVZOiN6d1u5BmJ2bPqJBYfHch3O5Y/WKf8AqPhXR6Mpz9ovFw0vOOyWXCtrnvwrHLJBH4qtSLPpWM0rLT4dVhOPGqi1CBq3pgg2o5XDs7e24O7a7Kle9RbT7DVryHEpWCo4SkbR8hvqrOhQG6XO/ahcB2pT+BtcRnKyP2k+6rGattCdkADuFfVKVGilKUCh4UrCjspJPcM0FeaZc63rbUcru+kEMp/5adk/L41FultG1qOXzZbPwrv9FqxIblTQdoS7k68D4ggYrjdK6f8Aad/nGR+danWLxL+hqUZOhYqFKyuO860eXbJH7KhU4qregaTtWm7RNrPo5SXAOSkgfw1aVS9anClKVFKUpQQHpisyZ+lXpSR9ZCIfCgcEAblfskn2VDLlctqRpfWKV4VIQGZihuHpEfVuE+YP7NXRcoqJ0F+K6AUPNqQQfAjH51QVsT1ro8vlteGXbXObe2SN4DmWz8Qa1Ga/QTDnpGUL8RWK4uh53XtLW6Qs5UplOTzxv+OaVlpq6quAah3ZtB7TdveXnwOxgfOuF0HMJa0htpAG2+snng7P8NampJnp7tqeFtdoWp5QH6qD+ddPoYUP6Htp8HXP3jV+MzqfUpSo0UpWM0AnFRbW2q4llhuQmyqRdJLZRHisjaXkggKI7h8+6tK/6ukypLlp0kluRKSdmROXvYjeO/1lcd3dz3ivPTOkURFrlKW5Jmvb3p0ntLWe/GeAqxNcHQMmRpoxLZfYa4jBWVMy/tNZV6q1Dck54ZrS6WG339V9WhR3ZEl6K2ENtJ2jxUM8h4ngKmep9Xad0fHcZkr61LUnHVWsLcVn9LuSPP41xoPSNaUOQFXO1Iix5cNlQfZSFhrIzsKGAdkZ3EZ48BVRwNCJm9H012Vf45EK4IQh12OfSCMpJUU7ePxHOPZmrljSWZTDb8d1DrTg2kLQoKSoeINcYw4V1hCTbHmJMZ5ORskLbWPP8qirMO56QlKfsKFvwVKy/aXFcPFTJ9U8juPyX0niyaVzLFfIF9h9Zt720lJ2XG1jZcaV3pWniDXTrLRSlKDFUjEtrkK86+irbIaejPvoONxIcK0+7aNXfUS1Lb2WIV9uAwFKgvBWfw/+qsSuP0VyFHRMIK3lLjyfYHFY+GKV4dFKCrRcZW/e89/3FD8qVUjmXZpSel6RDVuTc4DjIzwG0yR82x766HQbL9JZpcdW5Tb21s+AUAfmFVqdLG3ZtUWDUTSeww6A75Ag49qfSfCmkliw9I90t2QGJCi4ye4g9tOP1VH3U+H1bVKVoXa6sWxkKc2nHV7mmG8Fbp8APzO4d9ZabEuZHhRXZUx5DMdpJU444oBKQO8moVPl3TVzhjQ+sQLModojKJEscv8ALR8TyrcfguTFC66pkNMRWTttRyr6pnnv+2r7x9gHEx6/9IrMVlUfT7YaR/q3hx/Ck/M+6rEqT+isek7e31xbLDSf7JhA4nkkbyedQvUXSDPuAUxawqDFIxtg/WqHmPs+z31D47t31LNdVa4sq6SdrDjvqg+Clqwkbu7IqZWboonSil7UdyDTf+mh71e1Z3e4e2rk+s+3irLytC3thJLjzityU5UpZ5DiTUictk+PZ4H0nBkRkmMhILzRTjHD21een9K2TTyMWu3tNOYwXldtxXms5NddxtDqFIcQlaFDBSoZBHlT+j+X5ttV0u+m5RftEtbQJyps723PxJ4H586s7T3SRaL4lES/tpt0s7kuE/VKPJXq+R95rr3ro9s1x2lx21Qnj3s/Y9qeHuxVd6g6Nr1AClx2RNZHrsfaHmk7/dmmymWLAuunH48z6XssgRpwTjrCE5Q8nuS6gfbTz4juIrrWDUbdxcEGcz1O6JTtKjlWUuAcVNq9ZPxHeKpPTmr77pR30Md0vREKwuFIzsp8u9B+HKrHtd+01rZCI6VGDcgdtMdxWwsK/SbWO/mN/iKWLKsIGs1G4V2l2txMK/qyknZan4ASrwDgG5J+8OyfunAMjHdWWmaiPSJK6rou8O8C42Ghz2lAfImpYs4STVadMsp1dpt1mi46xPk7h5bh+0oe41Z1Lx2+jO39X0TbEFOCpCnD+uor/ipUmtUZEK3R4zY7DbYSPIDApTTEf6SbIb1paSy2kl5ADjWOO0DkD28PbVXtzVzbDZNQR17Uu2KEGWTxVs72ifNJIJ8avpxAWgoUNxGKpW5w29KazlQ5+U2K+pLbhA3NLJ3L5bKjnyVyqxKtCDeTcLWw7b0ha1thRcc3IaGOKj3+Q+HGofe9aWiwOOKiLFzujhCVSF/ZB7kpA+1g8Ep3b+PGuS21NuN1Z0xe7guDCipDSWIjYAexwOTnO0N+SD7DVjWHS1lsX1ltgtpeI7UheVuq/XVv9nCpw6rAWTW2tJCZMtsxI53ofndnZB/QZG/3gedS2x9FdkiFD94cdu8ob8vdlrP/AAwcEfiKqnuBWaauPJhhqO0hphtDbaBhKEJ2QByAr1pSopSlKBQ0pQcm9actN8b2bnCbeVjAcHZWnyUN9VzqDohXlTtinBY4hiSMEeSx+Y9tW5SrqWapKJqvU+kSi36utz82ArsDrGNtIxjCXBkL8ic8xU80tfYUyP6SwSjMhJ+3CXufij7oO8p5c9x3YMueZafaU0+2hxtQwpC05BHMVCbx0Z2d98TbM6/ZpqTtIdiK7IP4e72EU0kxMkvIkNpW0oKQrgRVYRT/AEu6VnJLatqBZ07CMcCoZA96to/qiu3q69ytJ6QDMq4ddu8gFlp8MhtSiRvXsjduHvJFbvRrpw2DT7YkJxLkH0r3Ikbh7BgeeacOpaAMcKVmlRSo3rnTTOpbK7FWAl4dppzH2VDh/I8iaklKCjLUt+7M/QdxCmdR2obMdSjvktJ37GTxWnik949tWPovUouTHU5qgia0MEHdt47xz8R3VodIOijeEoudpV1e7RsKbdQdkqxvAz3b94Pd5VE7VcTfZgZfH0dqmOrCkH6tMsp9ZPg53kcDxHLXWeLmzWajFh1Ml4iHdR1eWg7JUobKVHn4GpMDWWmaUpQKUpQKUpQKUrBIA30AnFaN1uMa2QX5090NRmU5Uo/IeJPADvpdLlFtkNyZcH0MR2xvUo/AeJPcKrPFy6T7uklLsTTkVzcDuLpH8e/ySD4mrEteml4UrXGqF6murRRboq9mGwrh2Tu93EnvV5VawAAAHdXhBhsQYjcWK0lthpIShCRgACtilpClKVFKUpQYIyKiOtNDwtRN+mR/V5qBlt9vcQe7eKl9KCnVXOda3k27WkZ14Dss3NhGXQPvj+8Hlv5VK7Rc5saKmRAktXS29zjS9oJ5eKTyPCpZcLbEuTCmZjCHWz3KANQSfoCZbpRm6WuDkV79ArPa5Z7xyINVnMS+FqGFJA21FhZ7nOHv4V1EOJWMoUFDxBzVVv36823I1Lp70yU8ZTHYJHiSnKT8K2oOr9NugLRPlQ1eDrJVj2ozTF1ZtKh0bUdrVjY1JCI8Fv7J9yt9bh1Jam05cv8AbwB3mSmoaktfKnEp+0RURk6305H/ALS9IePgwlbnxAxXFkdJcRb3V7Hapc6R3bXZHuTk/AUymrELpVuQD51FtTa4tVhCmvSdcncBHZVnB+8rgPLjyqPfR+u9VApmvos8FXFtHZJHkDtH2keVSfTWhLPYSl5DXWZY/wAQ8ASPwjgn586p1FYOm75rWa3ctVrciwEHLMJGU5Hl6vme0eVWXChx4MZqPEaQ0y2kJQhAwEivcDlWaaSFKUqKUpSgUpSgUpSgVilKD5KEqPaGa5c7TVlnEql22M4o95bGffxpSg4j3R3pdxWfo9aD9yS6B7trFeY6N9M7W+I+rl1lwfI1mlVMb8LQ2mo2C3aWlEHcXVKd/eJrvxocaI36ONHaZR+i2gJHuFKUV7YrNKVApSlApSlApSlB/9k=" >
+    <!-- --------------------CSS LINK----------------- -->
+    <link rel="stylesheet" href="homepage.css">
+    <title>Mercedes.com</title>
+</head>
+<body>
+   <div class="navbar-1">
+      <div class="nav-lang">
+        <a href="">Deutch</a>
+        <a href="">English</a>
+      </div>
+      <div class="nav-logo">
+        <a href="">Provider/Privacy</a>
+        <img src="data:image/jpeg;base64,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EBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//Z" alt="mercedes-logo">
+      </div>
+      <div class="nav-utility">
+        <ul>
+            <li><a href="">Search <span><i class="fa-solid fa-magnifying-glass"></i></span></a></li>
+            <li><a href="">Login <span><i class="fa-solid fa-chevron-down"></i></span></a></li>
+        </ul>
+      </div>
+   </div> 
+
+   <div class="navbar-2">
+     <ul>
+        <li><a href="">Art& Culture</a></li>
+        <li><a href="">Sustainability</a></li>
+        <li><a href="">Design</a></li>
+        <li><a href="">Innovation</a></li>
+        <li><a href="">Exclusive</a></li>
+        <li><a href="">Vehicles</a></li>
+     </ul>
+   </div>
+
+<!-- --------------------====-==========--CAROUSEL---================--------------------------- -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img  src="https://www.mercedes-benz.com/content/dam/brandhub/assets/vehicles/mercedes-maybach/maybach-brand/homepage/mercedes-maybach-brand-campaign-homepage-stage-4k-3840x2180-08-2023.cbv20231102081617.jpg/_jcr_content/renditions/mq5-original-aspect.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item ">
+            <img src="" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+<!-- ----------------------TEXT ON SLIDES---------------------- -->
+      <div class="slide-text">
+        <h2>Welcome To Beyond</h2>
+        <p>Welcome to Mercedes-Maybach.</p>
+        <button type="submit">Discover<span><i class="fa-solid fa-chevron-right"></i></span></button>
+      </div>
+
+      <div class="model">
+         <div class="model-1">
+            <p>Responsibility</p>
+            <h4>Inclusion is unstoppable.</h4>
+            <img src="https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/milestones/independent-mobility/stage/04-2023/images/mercedes-benz-freedom-of-mobility-stage-mobile-1080x1920-04-2023.cbv20230901081404.jpg/_jcr_content/renditions/mq3-original-aspect.jpeg" alt="">
+         </div>
+
+         <div class="model-2">
+            <p>Future Mobility</p>
+            <h4>Neon Dreams</h4>
+            <img src="https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/future-mobility/neon-dreams/stage/09-2023/mercedes-benz-neon-dreams-stage-3840x2160-09-2023.cbv20230831124549.jpg/_jcr_content/renditions/mq3-original-aspect.jpeg" alt="">
+         </div>
+
+         <div class="model-3">
+            <p>Exclusive</p>
+            <h4>Mercedes-Benz' new Sustainability Prize.</h4>
+            <img src="https://www.mercedes-benz.com/content/dam/brandhub/assets/sustainability/environment/festival_hyeres_decade_partnership/update-10-2023/festival-hyeres-02-vertical-gallery-3-4.cbv20231013001630.jpg/_jcr_content/renditions/mq3-original-aspect.jpeg" alt="">
+         </div>
+
+         <div class="model-4">
+            <p>Milestones</p>
+            <h4>Defining Class since 1886</h4>
+            <img src="https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/milestones/defining-class/stage/09-2023/images/mercedes-benz-iaa-defining-class-stage-3840x2160-09-2023.cbv20230903180335.jpg/_jcr_content/renditions/mq3-original-aspect.jpeg" alt="">
+         </div>
+
+         <div class="model-5">
+            <p>Vehicles</p>
+            <h4>The MANUFAKTUR-Icons of Unique.</h4>
+            <img src="https://www.mercedes-benz.com/content/dam/brandhub/assets/vehicles/g-class/g-manufaktur-icons-of-unique/10-2022/stage/images/mercedes-benz-g-class-w463-stage-mobile-amg-line-1242x2210-10-2022.cbv20230517110803.jpg/_jcr_content/renditions/mq3-original-aspect.jpeg" alt="">
+         </div>
+
+      </div>
+
+      <div class="info">
+        <div class="info-text1">
+            <p>Inspired by the sense of freedom.</p>
+            <h1>Masterpiece in the desert.</h1>
+        </div>
+        <div class="info-img">
+            <img src="https://www.mercedes-benz.com/content/dam/brandhub/assets/exclusive/mercedes-me-magazine/masterpiece-2023/01-mercedes-benz-me-magazine-2023-masterpiece-5120x2880.cbv20230619072646.jpg/_jcr_content/renditions/mq3-original-aspect.jpeg" alt="">
+        </div>
+        <div class="info-text2">
+            <p>Interior designer John Vugrin has dedicated his career to a house that is making architectural history. A journey through the California desert.</p>
+            <button type="submit">Discover</button>
+        </div>
+
+      </div>
+
+      <div class="social">
+        <h1>Follow Mercedes-Benz</h1>
+        <div class="socials-items">
+            <a href=""><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href=""><i class="fa-brands fa-facebook fa-3x"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter fa-3x"></i></a>
+            <a href=""> <i class="fa-brands fa-linkedin fa-3x"></i></a>
+            <a href=""> <i class="fa-brands fa-youtube fa-3x"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok fa-3x"></i></a>
+        </div>
+        
+      </div>
+
+       <div class="sales">
+          <div class="sales-menu">
+            <h1><a href="">Purchase</a></h1>
+            <h1><a href="">Finance</a></h1>
+            <h1><a href="">Services</a></h1>
+          </div>
+
+          <div class="sales-sub-menu">
+              <ul>
+                <li><a href="">Vehicles</a></li>
+                <li><a href="">Accesories</a></li>
+                <li><a href="">Digital Extras</a></li>
+                <li><a href="">Lifestyle Collection</a></li>
+              </ul>
+          </div>
+
+          <hr>
+          
+          <div class="more-info">
+            <h1>MORE INFORMATION</h1>
+            <div class="more-info1">
+                <p>Company</p>
+                <ul>
+                    <li><a href="">Overview</a></li>
+                    <li><a href="">Career</a></li>
+                    <li><a href="">Investors</a></li>
+                    <li><a href="">Media site</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="more-info2">
+                <p>Knowledge</p>
+                <ul>
+                    <li><a href="">Consumption & Emission</a></li>
+                    <li><a href="">Real Driving Emission</a></li>
+                    <li><a href="">UN 38.3 Tests</a></li>
+                   
+                </ul>
+    
+            </div>
+    
+            <div class="more-info3">
+                <p>Business Services</p>
+                <ul>
+                    <li><a href="">Fleet Sales</a></li>
+                    <li><a href="">International Diplomatic Sales</a></li>
+                    <li><a href="">Mercedes-Benz GUARD</a></li>
+                    <li><a href="">Training for Authorized Dealers</a></li>
+                    <li><a href="">Mercedes-Benz Energy Storage</a></li>
+                </ul>
+    
+            </div>
+    
+           </div>
+
+       </div>
+
+       
+</body>
+</html>
+
+
+
